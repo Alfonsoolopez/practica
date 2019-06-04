@@ -63,6 +63,10 @@ footer{
     width: 100%;
     background-color:#C5D9E2;
    text-decoration: none;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
 }
 
 #TextoFooter{
@@ -118,15 +122,11 @@ table {
     background-color: #000000;
 }
 
-div{
-    text-align-last: center;
-    text-align: center;
-    align-content: center;
-}
-ol{
-    text-align: center;
-    align-content: center;
-}
+
 p{
     margin-left: 15px;
+}
+
+a{
+    text-decoration-line: none;
 }
